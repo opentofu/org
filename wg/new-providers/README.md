@@ -82,7 +82,7 @@ Background reading materials
 
 ### Unlocking New Functionality
 
-OpenTofu has repeatedly discussed features that would significantly improve the developer experience but are difficult to implement with the current provider architecture. These include:
+The OpenTofu maintainers often find themselves discussing features that would significantly improve the developer experience but are difficult to implement with the current provider architecture. These include:
 
 - **Bulk operations** for efficient batch create/update/delete of resources
 - **Resource listing** to discover and import existing infrastructure 
