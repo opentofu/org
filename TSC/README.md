@@ -10,7 +10,7 @@ Every meeting is run by a member of the TSC.  This responsibility is a rotation 
 * Taking notes or relying on the recording to make notes after.
 * Reviewing the action items from the previous TSC meeting.
 * Leading the discussion of the topics present in this weeks Agenda.
-* Determining who will be the next in the rotation to take on the responsibility.
+* Checking the slack rotation app to ensure the next in rotation is available for the next meeting.
 * Closing the meeting once all topics have been covered or allocated time has elapsed.
 
 ### Post TSC Meeting Responsibilities
