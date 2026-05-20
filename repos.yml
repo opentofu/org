@@ -1,0 +1,17 @@
+class_a:
+  opentofu: https://github.com/opentofu/opentofu
+class_b:
+  vscode-opentofu: https://github.com/opentofu/vscode-opentofu
+  tofu-ls: https://github.com/opentofu/tofu-ls
+  hcl: https://github.com/opentofu/hcl
+  registry-address: https://github.com/opentofu/registry-address
+  setup-opentofu: https://github.com/opentofu/setup-opentofu
+  tofu-exec: https://github.com/opentofu/tofu-exec
+class_c:
+  registry: https://github.com/opentofu/registry
+  opentofu.org: https://github.com/opentofu/opentofu.org
+  org: https://github.com/opentofu/org
+  opentofu-performance-testing: https://github.com/opentofu/opentofu-performance-testing
+  registry-ui: https://github.com/opentofu/registry-ui
+  opentofu-mcp-server: https://github.com/opentofu/opentofu-mcp-server
+  tofudl: https://github.com/opentofu/tofudl
