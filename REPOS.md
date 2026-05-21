@@ -2,6 +2,8 @@
 
 There are many repositories in the `opentofu` GitHub organization, and it can be difficult to determine which ones are open for community contributions. Rather than leave it up to guesswork, this list is the only set of repositories for which OpenTofu's maintainers will review, accept, and merge issues and pull requests from the OpenTofu community, the open-source community, and beyond.
 
+Any repository that is not listed here is not open to community contributions. We may modify this list from time to time, adding or removing repositories as their circumstances change (e.g a new project being added, a project reaching such a maturity to accept community contributions, a project becoming archived, etc.).
+
 ## Repository classification
 
 OpenTofu has uncommon intellectual property risks (see the [note on copyright](https://github.com/opentofu/opentofu/blob/8541e02cc6fd0bb3bbcf2ec20bb440be2816dae1/contributing/DEVELOPING.md#a-note-on-copyright) in the `opentofu` repository). Because of these challenges, OpenTofu's repositories are partitioned into three policy designations, categorized by the level of legal scrutiny:
