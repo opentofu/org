@@ -1,0 +1,11 @@
+group:
+  repos: |
+    opentofu/registry
+    opentofu/opentofu.org
+    opentofu/opentofu-performance-testing
+    opentofu/registry-ui
+    opentofu/opentofu-mcp-server
+    opentofu/tofudl
+  files:
+    - source: AI-Policies/AI_POLICY-c.md
+      dest: AI-USAGE-POLICY.md

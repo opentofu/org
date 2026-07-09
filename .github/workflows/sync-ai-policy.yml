@@ -1,0 +1,26 @@
+name: Sync Class C AI policy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - AI-Policies/AI_POLICY-c.md
+      - .github/sync.yml
+      - .github/workflows/sync-ai-policy.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - uses: Redocly/repo-file-sync-action@1d4df0c4ae7d9ae3dfcfef03db7a20d0b5accd13
+        with:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          COMMIT_BODY: |
+            Propagated from opentofu/org, the source of truth for this policy.
+            See https://github.com/opentofu/org/blob/main/AI-Policies/AI_POLICY-c.md
