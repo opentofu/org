@@ -19,17 +19,19 @@ This Charter sets forth the responsibilities and procedures for technical contri
 
       The TSC voting members are initially those Committers of the Project that are listed as “TSC Members” within the “CONTRIBUTING” file within the Project’s code repository. TSC members selected to serve on the TSC serve until their resignation or replacement by the TSC. The TSC may choose an alternative approach for determining the voting members of the TSC, and any such alternative approach will be documented in the CONTRIBUTING file.  Any meetings of the Technical Steering Committee are intended to be open to the public, and can be conducted electronically, via teleconference, or in person.
 
-   b. TSC projects generally will involve Contributors and Committers. The TSC may adopt or modify roles so long as the roles are documented in the CONTRIBUTING file. Unless otherwise documented: 
+   b. TSC projects generally will involve Contributors, Committers, and Maintainers. The TSC may adopt or modify roles so long as the roles are documented in the CONTRIBUTING file. Unless otherwise documented: 
 
-      * i. Contributors include anyone in the technical community that contributes code, documentation, or other technical artifacts to the Project;
+      * i. Contributors include anyone in the technical community that contributes code, documentation, or other technical artifacts to the Project; and
 
-      * ii. Committers are Contributors who have earned the ability to modify (“commit”) source code, documentation or other technical artifacts in a project’s repository; and  
+      * ii. Committers are Contributors who have earned the ability to modify (“commit”) source code, documentation or other technical artifacts in a project’s repository; and 
 
-      * iii. A Contributor may become a Committer by approval of the TSC. A Committer may be removed by a majority approval of the TSC.
+      * iii. A Maintainer is a Committer with additional administrative privileges and access controls for source code and infrastructure. In addition to this access, they liaise with the TSC on matters of technical direction of the OpenTofu project. Maintainers of the organization are distinct from maintainers of source code repository, as a Committer or Maintainer may be a maintainer of source code repository; and
 
-   c. Participation in the Project through becoming a Contributor and Committer is open to anyone so long as they abide by the terms of this Charter.
+      * iv. The TSC may change the role of any Contributor by majority approval, whether establishing them as Committer or Maintainer, or by revoking their roles and privileges. Any Maintainer may also voluntarily downgrade their status from Maintainer to Committer at will, and any Maintainer and Committer may voluntarily resign their status at will.
 
-   d. The TSC may (1) establish work flow procedures for the submission, approval, and closure/archiving of projects, (2) set requirements for the promotion of Contributors to Committer status, as applicable, and (3) amend, adjust, refine and/or eliminate the roles of Contributors, and Committers, and create new roles, and publicly document any TSC roles, as it sees fit.
+   c. Participation in the Project through becoming a Contributor, Committer, and Maintainer is open to anyone so long as they abide by the terms of this Charter.
+
+   d. The TSC may (1) establish work flow procedures for the submission, approval, and closure/archiving of projects, (2) set requirements for the promotion of Contributors to Committer status and Committer to Maintainer, as applicable, and (3) amend, adjust, refine and/or eliminate the roles of Contributors, Committers, and Maintainers, and create new roles, and publicly document any TSC roles, as it sees fit.
 
    e. The TSC may elect a TSC Chair, who will preside over meetings of the TSC and will serve until their resignation or replacement by the TSC.  
 
