@@ -1,7 +1,7 @@
 > [!NOTE]
->  All revisions to this document must be handwritten and cannot use AI in either assistance or ideation.
+> All revisions to this document must be handwritten and cannot use AI in either assistance or ideation.
 
-Each repository in the OpenTofu org has its own AI policy, which is determined on a case-by-case basis. This policy applies solely to this repository. 
+Each repository in the OpenTofu org has its own AI policy, which is determined on a case-by-case basis. This policy applies solely to this repository.
 
 ### Reason for this policy
 
@@ -13,9 +13,9 @@ This policy is purposely stricter than the [Linux Foundation's Generative AI Pol
 
 ### Rules for community contributors
 
-OpenTofu welcomes human-written contributions from the open source community. We are happy to review pull requests that you wrote yourself, line by line. 
+OpenTofu welcomes human-written contributions from the open source community. We are happy to review pull requests that you wrote yourself, line by line.
 
-**We do not accept AI-generated code from community contributors.** This applies to any code generated, completed or rewritten by an AI tool. If an AI wrote part of your contribution, we cannot accept it. 
+**We do not accept AI-generated code from community contributors.** This applies to any code generated, completed or rewritten by an AI tool. If an AI wrote part of your contribution, we cannot accept it.
 
 **If you discover a bug or possible improvement using AI tools**, feel free to open an issue instead of a pull request. Describe the problem in your own words and a maintainer or other community member may discuss this, pick it up, and implement a fix under the same rules of this policy and contributing guidelines. We emphasize that no code generated or suggested by an AI tool used for analysis should be included in the description of these issues.
 
@@ -24,6 +24,10 @@ Pull requests identified as AI-generated will be closed without further review.
 ### Rules for Maintainers
 
 The rules below apply to OpenTofu maintainers who are using AI tooling when contributing to this repository. These rules sit alongside the existing review and quality standards and not in place of them. AI does not change what is expected from a maintainer’s pull request, the standards bar is still the same.
+
+#### Class B-specific: Maintainer discretion
+
+Whether AI tooling may be used for a contribution is decided by OpenTofu maintainers on a case-by-case basis. If its use is permitted, only the tooling approved below may be used, and all remaining rules in this policy apply.
 
 #### Approved Tooling
 
@@ -34,7 +38,8 @@ Github Copilot Enterprise is the only approved AI tool on this repository as of 
 If you did use AI tooling in any part of this contribution, you must disclose this in the pull request description. “Any part” here includes generated code, AI suggested edits, AI assisted refactoring, and documentation. See Commit attribution below.
 
 #### Author responsibility
-You must be able to understand and explain every line you submit. Maintainers remain fully responsible for the quality, correctness, and provenance of the code they contribute. The standards for pull requests have not changed because AI tooling exists. 
+
+You must be able to understand and explain every line you submit. Maintainers remain fully responsible for the quality, correctness, and provenance of the code they contribute. The standards for pull requests have not changed because AI tooling exists.
 
 If you as the author of a contribution cannot explain a line of code on your own pull request during review then you should not be submitting it.
 
@@ -47,11 +52,13 @@ Commit messages must be human-written. The commit message is a description of yo
 Every commit that uses AI assistance must include an `Assisted-by` trailer at the end of the commit message.
 
 Format :
+
 ```
 Assisted-by: Github Copilot (Model: <modelname>)
 ```
 
 For example:
+
 ```
 Assisted-by: GitHub Copilot (Model: Claude Opus 4.7)
 ```
